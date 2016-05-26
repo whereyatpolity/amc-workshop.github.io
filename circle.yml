@@ -9,16 +9,18 @@ machine:
 dependencies:
   cache_directories:
     - "~/.stack"
-    - "~/site-generator/.stack-work"
+    - "~/amc-workshop.github.io/site-generator/.stack-work"
   pre:
     - wget https://github.com/commercialhaskell/stack/releases/download/v0.1.6.0/stack-0.1.6.0-linux-x86_64.tar.gz -O /tmp/stack.tar.gz
     - tar xvzf /tmp/stack.tar.gz -C /tmp
     - sudo mv /tmp/stack-0.1.6.0-linux-x86_64/stack /usr/bin/stack
+  override:
+    - cd site-generator && stack setup
+    - cd site-generator && stack build --jobs=4
 
 test:
   override:
-    - cd site-generator && stack setup
-    - cd site-generator && stack build
+    - echo 0
   post:
     - cd site-generator && stack exec site build
     - cd site-generator && stack exec site deploy
