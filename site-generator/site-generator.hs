@@ -27,7 +27,7 @@ main = hakyllWith conf $ do
 
 conf = defaultConfiguration { providerDirectory = "current"
                             , ignoreFile = ignoreFile'
-                            , deployCommand = "mv _site/* ../"}
+                            , deployCommand = "mv _site/markdown/* ../ && rmdir _site/markdown && mv _site/* ../"}
        where  ignoreFile' path
                 | "current" `isPrefixOf` fileName = True
                 | otherwise                       = False
