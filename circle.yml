@@ -22,6 +22,7 @@ test:
   override:
     - echo 0
   post:
+    - cd site-generator && stack exec site clean
     - cd site-generator && stack exec site build
     - cd site-generator && stack exec site deploy
 
