@@ -118,7 +118,7 @@ If you are curious how it works, you can read more in the
 that explanation is a little more technical than the rest of this
 material and assumes you know the basics of how websites work.
 
-![CircleCI build status](https://circleci.com/gh/:owner/:repo.svg?style=shield&circle-token=:7f757594867c5efe20bf8c4f80ee502897f57905)
+![CircleCI build status](https://circleci.com/gh/amc-workshop/amc-workshop.github.io.svg?style=shield&circle-token=7f757594867c5efe20bf8c4f80ee502897f57905)
 
 ## Resources and essays on contributing to open source/free software
 
