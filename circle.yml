@@ -15,6 +15,7 @@ dependencies:
     - tar xvzf /tmp/stack.tar.gz -C /tmp
     - sudo mv /tmp/stack-0.1.6.0-linux-x86_64/stack /usr/bin/stack
   override:
+    - cd site-generator && ln -s ../ current
     - cd site-generator && stack setup
     - cd site-generator && stack build --jobs=4
 
@@ -25,6 +26,7 @@ test:
     - cd site-generator && stack exec site clean
     - cd site-generator && stack exec site build
     - cd site-generator && stack exec site deploy
+    - cd site-generator && rm current
 
 deployment:
   production:
