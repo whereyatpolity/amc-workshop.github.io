@@ -13,17 +13,22 @@ main = hakyllWith conf $ do
 
     match "markdown/*.md" $ do
         route   $ setExtension "html"
-        compile $ pandocCompiler
-            >>= loadAndApplyTemplate "templates/default.html" defaultContext
+        compile $ do
+          pages <- loadAll "create-your-personal-page-here/*"
+          let pagesCtxt = listField "pages" defaultContext (return pages)
+          pandocCompiler
+            >>= loadAndApplyTemplate "templates/default.html" (pagesCtxt `mappend` defaultContext)
             >>= relativizeUrls
 
     match "create-your-personal-page-here/*" $ do
-      route $ (gsubRoute "create-your-personal-page-here" (const "personal")) `composeRoutes` (setExtension "html")
+      route $ (gsubRoute "create-your-personal-page-here" (const "participants")) `composeRoutes` (setExtension "html")
       compile $ pandocCompiler
-        >>= loadAndApplyTemplate "templates/personal.html" defaultContext
-        >>= relativizeUrls
+        >>=loadAndApplyTemplate "templates/personal.html" defaultContext
+        >>=relativizeUrls
 
     match "templates/*" $ compile templateCompiler
+
+
 
 conf = defaultConfiguration { providerDirectory = "current"
                             , ignoreFile = ignoreFile'
