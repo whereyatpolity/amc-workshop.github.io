@@ -39,10 +39,11 @@ Want to fix or add something?
    [edit files](https://help.github.com/articles/editing-files-in-another-user-s-repository/)
    or
    [create new files](https://help.github.com/articles/creating-new-files/)
-   on the Github website and commit your changes.
-3. [Create a pull request](https://help.github.com/articles/creating-a-pull-request/).
+   on the Github website and commit your changes to your fork.
+3. [Create a pull request](https://help.github.com/articles/creating-a-pull-request/) on the repository that you forked from (the original repository!). 
    1. Click "New pull request".
-   2. Look at the changes you've made -- the "diff". The left side is
+   2. You want to do a pull request between forks (different repositories), so click "compare across forks". The "base fork" is the repository that you want to add changes to; the "head fork" is the one that's yours and contains the changes. Select your fork from the dropdown.
+   3. Look at the changes you've made -- the "diff". The left side is
    the original. The right side is your version. The diff only shows
    the parts that have changes. Things you've added are in green,
    things you've deleted are red.
