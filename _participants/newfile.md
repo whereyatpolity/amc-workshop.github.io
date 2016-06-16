@@ -1,5 +1,0 @@
----
-  name: Some Name
----
-
-Testing
