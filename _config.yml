@@ -2,4 +2,5 @@ exclude: [
   README.md
 ]
 collections:
-- participants
+  participants:
+    output: true
