@@ -4,3 +4,4 @@ exclude: [
 collections:
   participants:
     output: true
+    layout: participant
