@@ -2,10 +2,6 @@
 ---
 {% include header.html %}
 
----
----
-{% include blog_header.html %}
-
   {% for post in site.posts limit: 3 %}
   <div class="post">
     <a href="{{ post.url }}"><h1>{{ post.title }}</h1></a>
