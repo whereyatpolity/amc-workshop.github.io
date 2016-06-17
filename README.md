@@ -85,6 +85,32 @@ destructive, merge it into the project! We may need to ask questions
 or make changes first though. You can reply to questions or comments
 on the pull request page.
 
+#### Turning text into webpages
+
+The ".md" files in this project are converted to web pages by the 
+Jekyll site generator. That means each file needs 
+[Front Matter](https://jekyllrb.com/docs/frontmatter/)-- a few lines 
+at the top describing the file.
+
+Participant pages should have front matter that looks like this:
+
+```
+  ---
+  name: Participant Name
+  ---
+```
+(The dashes are important!)
+
+Other pages should have front matter like this:
+
+```
+  ---
+    title: My page title
+    layout: default
+  ---
+```
+This is how the site generator knows what the page's title is and how to format it.
+
 #### Ideas for pull requests
 
 * Create a file called "{your name}.md" in the "_participants"
