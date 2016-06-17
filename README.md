@@ -4,11 +4,25 @@ This is the repository for the
 [AMC Github workshop website](http://amc-workshop.github.io).
 
 A *repository* is a collection of files (web pages, images, code, etc)
-used for a project. Often it is all the non-secret files in a project
--- so everything but passwords or secret keys. (This project doesn't
-have any secrets so everything is here!)
+used for a project.
 
-## How to contribute
+## What is this all about?
+
+If you'd like to collaborate with people on software, understanding
+Github and git can be really useful to you! It can also be useful for
+[non-code digital projects]().
+
+The skills taught in this workshop are especially useful for **open
+source** software.  If you're not familiar, check out
+[this talk](https://www.harihareswara.net/sumana/2013/09/19/0) and
+[this blog](https://www.harihareswara.net/sumana/2013/03/31/0) by
+Sumana Hareshiwara to learn more.
+
+This project is also a bit of an introduction to
+[static site generation](https://davidwalsh.name/introduction-static-site-generators),
+a secure and very fast method of creating websites.
+
+## How to contribute to this repository and website
 
 There are a few ways you can contribute. You will need to be logged in
 to your Github account to do any of these.
@@ -32,7 +46,7 @@ More information about issues:
 
 Want to fix or add something?
 
-1. "Fork" the repository by clicking "Fork" in the upper right hand
+1. Fork the repository by clicking "Fork" in the upper right hand
    corner. This will create a copy of the repository in *your* Github
    account.
 2. Make changes to your fork. If you are using only Github,
@@ -40,9 +54,14 @@ Want to fix or add something?
    or
    [create new files](https://help.github.com/articles/creating-new-files/)
    on the Github website and commit your changes to your fork.
-3. [Create a pull request](https://help.github.com/articles/creating-a-pull-request/) on the repository that you forked from (the original repository!). 
+3. [Create a pull request](https://help.github.com/articles/creating-a-pull-request/)
+   on the repository that you forked from (the original repository!).
    1. Click "New pull request".
-   2. You want to do a pull request between forks (different repositories), so click "compare across forks". The "base fork" is the repository that you want to add changes to; the "head fork" is the one that's yours and contains the changes. Select your fork from the dropdown.
+   2. You want to do a pull request between forks (different
+      repositories), so click "compare across forks". The "base fork"
+      is the repository that you want to add changes to; the "head
+      fork" is the one that's yours and contains the changes. Select
+      your fork from the dropdown.
    3. Look at the changes you've made -- the "diff". The left side is
    the original. The right side is your version. The diff only shows
    the parts that have changes. Things you've added are in green,
@@ -52,36 +71,38 @@ Want to fix or add something?
    5. Click "Create pull request".
 
 We will review your pull request and, unless your changes are wantonly
-destructive, merge it into the project! We may need ask questions or
-make changes first though. You can reply to questions or comments on
-the pull request page.
+destructive, merge it into the project! We may need to ask questions
+or make changes first though. You can reply to questions or comments
+on the pull request page.
 
 #### Ideas for pull requests
 
-* Create a file called "{your name}.md" in the "markdown"
+* Create a file called "{your name}.md" in the "_participants"
   directory. For example, I created "libby.md". Then write down your
   thoughts about this workshop, Allied Media Conference, or life in
   general! Use
   [Markdown](https://guides.github.com/features/mastering-markdown/)
   to format your page with headings, links, or lists.
-* Correct grammer, or, spelling mistaeks
+* Correct grammer, typos or, spelling mistaeks on the webiste or this README
+* Fix broken links
 * Write a better explanation of something or make an explanation
   clearer
-* Add more information or additional links to your favorite resources.
 * Correct an explanation that is just plain wrong!
+* Add more information or additional links to your favorite resources.
 * If you know CSS (Cascading Style Sheets), you can edit the style
   sheets and make the site look different.
 * If you know HTML, you can create or edit HTML files, including the
-  templates in "markdown/templates".
-* If you know the programming language Haskell, you can edit the
-  [static site generator](https://github.com/amc-workshop/amc-workshop.github.io/tree/master/site-generator).
+  templates".
+* If you know [Jekyll](http://www.jekyllrb.com), you can edit the
+  static site generator configuration.
 
 #### More information about pull requests
 
 * [How to Win Friends and Make Pull Requests on Github](http://readwrite.com/2014/07/02/github-pull-request-etiquette/)
 * [Of Github and Pull Requests](http://rachelnabors.com/2012/04/of-github-and-pull-requests-and-comics/)
-  -- a comic and notes about contributing to open source projects by Rachel Nabors
-* more
+  -- a comic and notes about contributing to open source projects by
+  Rachel Nabors
+* [Altassian guide](https://www.atlassian.com/git/tutorials/making-a-pull-request/) for making a pull request
 
 ## Learning git
 
@@ -94,40 +115,53 @@ other things. If you are interested in working in open source software
 and/or learning to code, it is well worth your time to master the git
 command line tool or a git GUI (graphical user interface).
 
-Here are some tutorials:
+Here are some tutorials for the command line (try
+[Open Hatch](https://openhatch.org/missions/shell/about) to get
+started using a shell):
 
-* [Open Hatch]()
+* [Open Hatch](https://openhatch.org) has a [git tutorial](https://openhatch.org/missions/git)
 * [Try Git](https://www.codeschool.com/courses/try-git)
-* more
+* [Simple git guide](http://rogerdudler.github.io/git-guide/)
 
-We encourage you to practice your git skills by working with this
-repository. Don't worry about breaking things!
+You can also try a GUI like
+[Github Desktop](https://desktop.github.com/),
+[GitX](https://rowanj.github.io/gitx/),
+[SourceTree](https://www.sourcetreeapp.com/), or
+[GitKraken](https://www.gitkraken.com/).
+
+As you learn, we encourage you to practice your git skills by working
+on this repository!!
 
 ## How this Github Pages repository works.
 
 This is a
 [Github Pages](https://help.github.com/articles/what-are-github-pages/)
-repository. That means all the files that are stored here are publicly
-visible on "github.io". You can even download this README.md at
-http://amc-workshop.github.io/README.md !
+repository. That means all the files get processed by a program called
+[Jekyll](https://jekyllrb.com/) and the resulting files are visible on
+"(something).github.io". Anyone can create a Github Pages website!
+[Yes, that means you!](https://guides.github.com/features/pages/)
 
-But how do the files in "markdown" get turned into HTML? That is not
-part of Github Pages. But it's not magic, either -- it's code!
+I am hugely indebted to
+[The Octavia Project](http://octaviaproject.org/) because their
+[website repository](https://github.com/OctaviaProject/octaviaproject.github.io/)
+helped me understand how fancy Jekyll stuff works and allowed me to
+simplify this repo!! :D
 
-If you are curious how it works, you can read more in the
-[README in the site-generator directory](https://github.com/amc-workshop/amc-workshop.github.io/tree/master/site-generator). However,
-that explanation is a little more technical than the rest of this
-material and assumes you know the basics of how websites work.
+More resources about Jekyll and Github Pages:
 
-![CircleCI build status](https://circleci.com/gh/amc-workshop/amc-workshop.github.io.svg?style=shield&circle-token=7f757594867c5efe20bf8c4f80ee502897f57905)
+* Official [Jekyll docs](http://jekyllrb.com/docs/home/)
+* [Jekyll Bootstrap](http://jekyllbootstrap.com/) <- haven't tried
+  this but could be a good way to get started
+* [Github's info on Jekyll configuration)(https://help.github.com/articles/configuring-jekyll/)
 
 ## Resources and essays on contributing to open source/free software
 
 ### Resources
 
-* [Openhatch](https://openhatch.org)
+* [Open Hatch](https://openhatch.org) -- Curates projects you can contribute to
 * [Outreachy](https://www.gnome.org/outreachy/) -- Paid internships working on free software
 * [10 entry points to tech (for girls, women, and everyone)](https://opensource.com/life/15/1/10-ways-girls-and-women-can-get-open-source-and-tech)
+* [@YourFirstPR](https://twitter.com/yourfirstpr) -- tweets welcoming open source projects
 
 ### Essays
 
