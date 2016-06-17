@@ -6,6 +6,16 @@ This is the repository for the
 A *repository* is a collection of files (web pages, images, code, etc)
 used for a project.
 
+## Table of Contents
+
+* [What is this all about?](https://github.com/amc-workshop/amc-workshop.github.io#what-is-this-all-about)
+* [How to contribute to this repository and website](https://github.com/amc-workshop/amc-workshop.github.io#how-to-contribute-to-this-repository-and-website)
+  * [Create an issue](https://github.com/amc-workshop/amc-workshop.github.io#create-an-issue)
+  * [Make achange and submit a pull requests](https://github.com/amc-workshop/amc-workshop.github.io#submit-a-pull-request)
+* [Learning git](https://github.com/amc-workshop/amc-workshop.github.io#learning-git)
+* [Other resources](https://github.com/amc-workshop/amc-workshop.github.io#how-this-github-pages-repository-works)
+
+
 ## What is this all about?
 
 If you'd like to collaborate with people on software, understanding
@@ -152,7 +162,7 @@ More resources about Jekyll and Github Pages:
 * Official [Jekyll docs](http://jekyllrb.com/docs/home/)
 * [Jekyll Bootstrap](http://jekyllbootstrap.com/) <- haven't tried
   this but could be a good way to get started
-* [Github's info on Jekyll configuration)(https://help.github.com/articles/configuring-jekyll/)
+* [Github's info on Jekyll configuration](https://help.github.com/articles/configuring-jekyll/)
 
 ## Resources and essays on contributing to open source/free software
 
