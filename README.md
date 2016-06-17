@@ -10,7 +10,7 @@ used for a project.
 
 If you'd like to collaborate with people on software, understanding
 Github and git can be really useful to you! It can also be useful for
-[non-code digital projects]().
+[non-code digital projects](http://readwrite.com/2013/11/08/seven-ways-to-use-github-that-arent-coding/).
 
 The skills taught in this workshop are especially useful for **open
 source** software.  If you're not familiar, check out
@@ -159,6 +159,7 @@ More resources about Jekyll and Github Pages:
 ### Resources
 
 * [Open Hatch](https://openhatch.org) -- Curates projects you can contribute to
+* [Girl Develop IT](https://www.girldevelopit.com) -- Runs tech workshops, including a workshop on [Github and git](https://www.girldevelopit.com/materials/intro-git-github)!
 * [Outreachy](https://www.gnome.org/outreachy/) -- Paid internships working on free software
 * [10 entry points to tech (for girls, women, and everyone)](https://opensource.com/life/15/1/10-ways-girls-and-women-can-get-open-source-and-tech)
 * [@YourFirstPR](https://twitter.com/yourfirstpr) -- tweets welcoming open source projects
