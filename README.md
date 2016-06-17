@@ -11,7 +11,7 @@ used for a project.
 * [What is this all about?](https://github.com/amc-workshop/amc-workshop.github.io#what-is-this-all-about)
 * [How to contribute to this repository and website](https://github.com/amc-workshop/amc-workshop.github.io#how-to-contribute-to-this-repository-and-website)
   * [Create an issue](https://github.com/amc-workshop/amc-workshop.github.io#create-an-issue)
-  * [Make achange and submit a pull requests](https://github.com/amc-workshop/amc-workshop.github.io#submit-a-pull-request)
+  * [Make a change and submit a pull request](https://github.com/amc-workshop/amc-workshop.github.io#submit-a-pull-request)
 * [Learning git](https://github.com/amc-workshop/amc-workshop.github.io#learning-git)
 * [Other resources](https://github.com/amc-workshop/amc-workshop.github.io#how-this-github-pages-repository-works)
 
