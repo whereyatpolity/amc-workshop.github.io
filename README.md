@@ -118,7 +118,9 @@ This is how the site generator knows what the page's title is and how to format 
   thoughts about this workshop, Allied Media Conference, or life in
   general! Use
   [Markdown](https://guides.github.com/features/mastering-markdown/)
-  to format your page with headings, links, or lists.
+  to format your page with headings, links, or lists. Make sure to add the 
+  [front matter](https://github.com/amc-workshop/amc-workshop.github.io#turning-text-into-webpages)
+  described above.
 * Correct grammer, typos or, spelling mistaeks on the webiste or this README
 * Fix broken links
 * Write a better explanation of something or make an explanation
