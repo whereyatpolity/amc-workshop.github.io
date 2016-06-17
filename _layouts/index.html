@@ -1,0 +1,18 @@
+{% include header.html %}
+
+<h1>{{ page.title }}</h1>
+
+{{ content }}
+
+<div class="post">
+  <h2 class="post-header">Participant Pages</h2>
+  <ul class="recent-posts">
+    {% for participant in site.participants %}
+    <li>
+      <a href="{{ participant.url }}">{{ participant.name }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
+
+{% include footer.html %}
